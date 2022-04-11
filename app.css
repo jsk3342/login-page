@@ -1,0 +1,132 @@
+/* Reset */
+
+* {
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+}
+
+body,
+div,
+p,
+button,
+nav,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #767676;
+}
+
+/* Layout */
+
+.container {
+  width: 350px;
+  height: 140px;
+  left: 25px;
+  top: 30px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Design */
+.title {
+  position: absolute;
+  width: 215px;
+  height: 15px;
+  left: 16px;
+  top: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.login-btu {
+  position: absolute;
+  width: 318px;
+  height: 40px;
+  left: 16px;
+  top: 50px;
+  border: none;
+  background: #711bff;
+  border-radius: 4px;
+}
+
+.longin-btu_text {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15.02px;
+}
+
+.logo-img {
+  display: none;
+  background-color: aqua;
+  position: absolute;
+  width: 102px;
+  height: 18px;
+  left: 124px;
+  top: 60px;
+}
+
+/* .footer {
+  position: absolute;
+  width: 318px;
+  height: 40px;
+  left: 16px;
+  top: 50px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+} */
+
+.nav-id {
+  position: absolute;
+  width: 34px;
+  height: 15px;
+  left: 36px;
+  top: 107px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.nav-pw {
+  position: absolute;
+  width: 67px;
+  height: 15px;
+  left: 82px;
+  top: 107px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.nav-sign_up {
+  position: absolute;
+  width: 45px;
+  height: 15px;
+  left: 289px;
+  top: 107px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.icon-id {
+  position: absolute;
+  left: 29.17%;
+  right: 29.17%;
+  top: 8.33%;
+  bottom: 54.17%;
+  background-image: image(image/icon-user.png);
+}
