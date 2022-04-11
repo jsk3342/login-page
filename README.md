@@ -4,6 +4,8 @@
 
 https://jsk3342.github.io/login-page/
 
+![image](https://user-images.githubusercontent.com/85912592/162701844-f6bf26be-8aa5-4312-ba3c-93ad3646dbd6.png)
+
 ## 목표
 
 피그마 디자인에 의거하여 구현하는것이 목표 입니다.
