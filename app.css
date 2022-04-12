@@ -38,22 +38,20 @@ a {
 
 /* Design */
 .title {
-  position: absolute;
+  margin-top: 20px;
+  margin-left: 16px;
   width: 215px;
   height: 15px;
-  left: 16px;
-  top: 20px;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
 }
 
 .login-btu {
-  position: absolute;
+  margin-top: 15px;
+  margin-left: 16px;
   width: 318px;
   height: 40px;
-  left: 16px;
-  top: 50px;
   border: none;
   background: #711bff;
   border-radius: 4px;
@@ -79,75 +77,70 @@ a {
   height: 18px;
 }
 
+.footer {
+  width: 318px;
+  height: 16px;
+  margin-top: 17px;
+  margin-left: 16px;
+}
+
 .nav-id {
-  position: absolute;
-  width: 34px;
-  height: 15px;
-  left: 36px;
-  top: 107px;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
 }
 
-.nav-id::before {
+.nav-id-icon {
+  position: relative;
+  padding-left: 2px;
+}
+
+.nav-id-icon::before {
   content: " ";
-  display: block;
   width: 16px;
   height: 16px;
   background-image: url(images/icon-lock.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
-  top: -1px;
-  left: -20px;
+  float: left;
 }
-.nav-id::after {
+
+.nav-id-icon::after {
   content: " ";
-  display: block;
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  right: -9px;
   width: 1px;
   height: 12px;
-  position: absolute;
   background-color: #767676;
-  top: 2px;
-  left: 39px;
+}
+
+.nav-left {
+  float: left;
 }
 
 .nav-pw {
-  position: absolute;
-  width: 67px;
-  height: 15px;
-  left: 82px;
-  top: 107px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
+  padding-left: 13px;
 }
 
 .nav-sign_up {
-  position: absolute;
-  width: 45px;
-  height: 15px;
-  left: 289px;
-  top: 107px;
+  float: right;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
 }
 
-.nav-sign_up::after {
+.nav-sign_up::before {
   content: " ";
   display: block;
+  float: left;
   width: 16px;
   height: 16px;
   background-image: url(images/icon-user.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
-  top: -1px;
-  left: -20px;
 }
